@@ -32,6 +32,8 @@ module.exports = {
     'object-shorthand': 'warn',
     'quote-props': ['warn', 'as-needed'],
     // TypeScript rules
+    '@typescript-eslint/no-empty-interface': 'off',
+    '@typescript-eslint/no-empty-object-type': 'off',
     '@typescript-eslint/array-type': [
       'warn',
       {
